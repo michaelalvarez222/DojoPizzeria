@@ -7,17 +7,17 @@ function pizzaOven(style, sauce, cheese, toppings){
     pizza.toppings = toppings;
     return pizza;
 }
-var pizza1 = pizzaOven("deep dish","traditional", "mozzarella", ["pepperoni", "sausage"]) 
-console.log(pizza1);
+var pizza10 = pizzaOven("deep dish","traditional", "mozzarella", ["pepperoni", "sausage"]) 
+console.log(pizza10);
 
-var pizza2 = pizzaOven("hand tossed", 'marinara', ["mozzarella", "feta"], ["mushrooms", "olives", "onions"])
-console.log(pizza2)
+var pizza20 = pizzaOven("hand tossed", 'marinara', ["mozzarella", "feta"], ["mushrooms", "olives", "onions"])
+console.log(pizza20)
 
-var pizzademike = pizzaOven("pancrust", "mariana", "mozzarella", ["chicken", "Bufallo sauce"])
-console.log(pizzademike)
+var pizzademike15 = pizzaOven("pancrust", "mariana", "mozzarella", ["chicken", "Bufallo sauce"])
+console.log(pizzademike15)
 
-var basic = pizzaOven("handtossed", "marinara", "mozarella")
-console.log(basic)
+var basic5 = pizzaOven("handtossed", "marinara", "mozarella")
+console.log(basic5)
 
 // BONUS
 
